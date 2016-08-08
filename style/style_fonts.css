@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "ArialNarrowRegular";
+    src: url("../fonts/ArialNarrowRegular/ArialNarrowRegular.eot");
+    src: url("../fonts/ArialNarrowRegular/ArialNarrowRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialNarrowRegular/ArialNarrowRegular.woff") format("woff"),
+    url("../fonts/ArialNarrowRegular/ArialNarrowRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ArialNarrowBold";
+    src: url("../fonts/ArialNarrowBold/ArialNarrowBold.eot");
+    src: url("../fonts/ArialNarrowBold/ArialNarrowBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialNarrowBold/ArialNarrowBold.woff") format("woff"),
+    url("../fonts/ArialNarrowBold/ArialNarrowBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+  font-family: 'icon_font';
+  src:  url('../fonts/icomoon.eot?onfibp');
+  src:  url('../fonts/icomoon.eot?onfibp#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?onfibp') format('truetype'),
+    url('../fonts/icomoon.woff?onfibp') format('woff'),
+    url('../fonts/icomoon.svg?onfibp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon_font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bookmark2:before {
+  content: "\e902";
+}
+.icon-google:before {
+  content: "\e901";
+}
+.icon-comment-discussion:before {
+  content: "\e900";
+}
+.icon-enlarge:before {
+  content: "\e989";
+}
+.icon-bookmark:before {
+  content: "\e9d2";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-vimeo2:before {
+  content: "\eaa1";
+}
+.icon-flickr3:before {
+  content: "\eaa5";
+}
+.icon-dribbble:before {
+  content: "\eaa7";
+}
+.icon-behance2:before {
+  content: "\eaa9";
+}
+
+.icon-bookmark2 .icon-google .icon-comment-discussion .icon-enlarge .icon-bookmark .icon-heart .icon-facebook .icon-twitter .icon-vimeo2 .icon-flickr3 .icon-dribbble .icon-behance2
+{
+    font-family: icon_font;
+}
+
